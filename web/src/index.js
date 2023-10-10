@@ -315,6 +315,7 @@ const Settings = ({ app }) => html`
 					<option value="light">Light</option>
 					<option value="dark">Dark</option>
 					<option value="black">Black</option>
+          <option value="gruvbox">Gruvbox</option>
 				</select>
 			</div>
 		</div>
