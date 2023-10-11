@@ -37,7 +37,7 @@ const makeThumbnailURL = mxc => `${HOMESERVER_URL}/_matrix/media/r0/thumbnail/${
 // This is also used to fix scrolling to sections on Element iOS
 const isMobileSafari = navigator.userAgent.match(/(iPod|iPhone|iPad)/) && navigator.userAgent.match(/AppleWebKit/)
 
-const supportedThemes = ["light", "dark", "black"]
+const supportedThemes = ["light", "dark", "black", "gruvbox"]
 
 const defaultState = {
 	packs: [],
